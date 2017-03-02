@@ -3,10 +3,13 @@
 
 	app.config(['$routeProvider',
 		function($routeProvider) {
-			$routeProvider.
+		  $routeProvider.
+                    when('/about', {
+		      template: '<about></about>',
+		      reloadOnSearch: false
+		    }).
 			when('/projects', {
-				template: '<projects></projects>',
-				reloadOnSearch: false
+				template: '<projects></projects>'
 			}).
 			when('/mentors', {
 				template: '<mentors></mentors>'
@@ -15,7 +18,7 @@
 				template: '<faq></faq>'
 			}).
 			otherwise({
-				redirectTo: '/projects'
+				redirectTo: '/about'
             		});
 		}]);
 	app.controller('TabController', function ($location) {
@@ -37,7 +40,7 @@
 				self = this
 				$scope.projectList = projects
 				self.showProject = function (project) {
-					
+
 					$scope.currentProject = project
 
 					$(document).ready(function () {
@@ -50,7 +53,7 @@
 				}
 
 				self.showProjectOnArrowClick = function (project) {
-					
+
 					$scope.currentProject = project
 					mval = encodeURIComponent(project["name"].split(' ').join('_').toLowerCase());
 					$location.url('?project=' + mval)
@@ -71,7 +74,7 @@
 				}
 
 				$scope.encode_URI = function (project_name) {
-					return encodeURIComponent(project_name.split(' ').join('_').toLowerCase()); 
+					return encodeURIComponent(project_name.split(' ').join('_').toLowerCase());
 				}
 
 				$scope.arrowPressed = function (e) {
@@ -109,7 +112,7 @@
 							}else{
 								self.showProjectOnArrowClick($scope.projectList[++current_project_index])
 							}
-						}					 
+						}
 					}
 				}
 
@@ -120,20 +123,32 @@
 					$scope.projects_url_dict[value["url"]] = key
 				});
 
-				var project_requested = encodeURIComponent($location.search().project); 
+				var project_requested = encodeURIComponent($location.search().project);
 				if(project_requested){
 					if(Object.keys($scope.projects_url_dict).indexOf(project_requested) > -1){
 						self.showProject($scope.projectList[$scope.projects_url_dict[project_requested]])
 					}
 				}
 
-				var search_requested = $location.search().q; 
+				var search_requested = $location.search().q;
 				if(search_requested){
 					$scope.searchText = search_requested
 				}
 
 			},
 			controllerAs: 'lc'
+		}
+	}]);
+
+	app.directive('about',[ '$http', function ($http) {
+		return {
+			restrict: 'E',
+			templateUrl: '/partials/tabs/about.html',
+			controller: function () {
+			  self = this;
+			  self.faqs = faq
+			},
+			controllerAs: 'toc'
 		}
 	}]);
 

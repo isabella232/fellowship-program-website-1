@@ -380,7 +380,7 @@ a:hover > .card{
   border-radius: 0 !important;
 }
 .medium-heading{
-  font-size: 1.3em; 
+  font-size: 1.3em;
   padding: 0.5em;
   font-weight: 400;
   color: lightgoldenrodyellow;
@@ -419,7 +419,7 @@ input:not([type]), input[type=text], input[type=password], input[type=email], in
 .modal{
   top: 5% !important;
 }
-.tabs .col-md-4{
+.tabs .col-md-3 {
   position: initial !important;
 }
 @media only screen and (max-width: 500px) {
@@ -497,3 +497,36 @@ ul:not(.browser-default) li {
 .lowercase{
   text-transform: lowercase;
 }
+
+
+.alert-header {
+  height: 30px;
+  width: 100%; }
+  @media (max-width: 767px) {
+    .alert-header {
+        display: none; } }
+
+.alert-header {
+  text-align: center;
+  background: #e54c3b;
+  color: white;
+  padding: 4px 0;
+  font-size: 0.875em; }
+  .alert-header a {
+    color: white;
+    text-decoration: underline; }
+
+
+header {
+    height: 125px;
+     border-bottom: 1px solid #EEE; }
+  header .header-brand {
+    background: url(../images/azavea-fellowshipprogram@2x.png) no-repeat;
+    background-size: 100%;
+    width: 235px;
+    height: 125px;
+    display: block;
+    margin-left:auto;
+     margin-right:auto;
+     margin-top:1em;
+    float: center; }
