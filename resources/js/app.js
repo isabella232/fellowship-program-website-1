@@ -1,5 +1,5 @@
 (function(){
-	var app = angular.module('coala', ['ngSanitize','btford.markdown', 'ngRoute']);
+	var app = angular.module('afp', ['ngSanitize','btford.markdown', 'ngRoute']);
 
 	app.config(['$routeProvider',
 		function($routeProvider) {

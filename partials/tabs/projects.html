@@ -1,6 +1,8 @@
 <section id="projectCtrl">
   <div class="main-content container">
-
+    <div class="project-notice">
+      <span>Project list will be updating, so check back for new ideas!</span>
+    </div>
     <div class="col-md-8 col-md-offset-2">
       <div class="input-field col-md-10">
         <input ng-model="searchText" placeholder="Search for a project" id="search" type="text" class="validate">
@@ -56,7 +58,7 @@
         </div>
 
         <div ng-show="currentProject.collaborating_projects.length>0" class="project-detail-element">
-          <div class="small-heading uppercase">Collaborating projects</div>
+          <div class="small-heading uppercase">Open Source Projects</div>
           <span class="pr-element-detail chip" ng-repeat="project in currentProject.collaborating_projects">{{ project }}</span><br>
         </div>
 

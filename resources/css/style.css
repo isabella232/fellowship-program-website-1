@@ -360,8 +360,8 @@ a:hover > .card{
   text-align: center;
 }
 .main-content-faq{
-  padding: 4em;
-}
+    padding: 2em 6em 0em 6em; }
+
 .gi-container-title-header{
   font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
   font-size: 6em;
@@ -529,4 +529,35 @@ header {
     margin-left:auto;
      margin-right:auto;
      margin-top:1em;
-    float: center; }
+     float: center; }
+
+
+.about{
+    padding: 0em 6em 0em 6em; }
+
+.about-banner {
+    max-width:100%;
+    max-height:100%; }
+
+.markdown.markdown-about a {
+  color: #0000EE;
+}
+
+.markdown.markdown-about h4 {
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.87);
+  text-transform: uppercase;
+}
+
+.markdown.markdown-about h5 {
+  font-size: 1em;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.project-notice {
+    font-size: 1.65em;
+    text-align: center;
+    padding-bottom: 1em;
+}
