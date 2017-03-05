@@ -1,5 +1,5 @@
-Other than the eligibility requirements [found on the about](#/about) page, you will need to:
+Other than the eligibility requirements [found on the about](#/about) page, you may also need to:
 
-* You have signed an Eclipse completed the [coala Newcomers guide](https://coala.io/newcomer)
-* You have a submission to [our usability survey](https://coala.io/usability)
-	so we know that you know how to *use coala*.
+* You'll be an Azavea employee during the fellowship, so you'll need to sign an employment agreement
+* Sign an Eclise contributor license agreement (required for some GeoTrellis projects)
+* Be able to work full-time in our [Philadelphia office](https://www.azavea.com/directions/)
