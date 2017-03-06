@@ -1,4 +1,4 @@
-It's tough to view GeoTiffs. QGIS and other desktop viewers are available, but sometimes you want to just load something up on a web page and view it on a map.
+It can be tough to quickly view GeoTiffs. QGIS and other desktop viewers are available, but sometimes you want to just load something up on a web page and view it on a map.
 
 What we'd like to do is have a simple web page that could load arbitrary geotiffs onto a web map.
 

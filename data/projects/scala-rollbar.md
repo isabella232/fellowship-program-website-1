@@ -1,0 +1,3 @@
+[Rollbar](https://rollbar.com/) is an error monitoring platform that Azavea uses to detect and analyze errors in their applications. There is an open source Scala integration with rollbar called [rollbar-scala](https://github.com/storecove/rollbar-scala) that has not been updated in a while, and requires many updates.
+
+This project is to update that project, and try to contribute the changes back to the original repository. If it happens that the project is unmaintained, part of the project would be to fork the repository, communicate to the community that we are taking ownership, and creating release and maintenance processes.
