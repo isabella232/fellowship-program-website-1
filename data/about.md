@@ -10,6 +10,7 @@ During the fellowship, you can expect to:
 - Work on open source projects related to Azavea's geospatial work
 - Work in our office in Philadelphia, PA
 - Get paid a $6,000 stipend
+- Applicants that live outside the Philadelphia region will be eligible for assistance with relocation expenses
 
 #### Applying
 
