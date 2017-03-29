@@ -22,7 +22,7 @@ and follow the instructions form instructions.
 
 #### Timeline
 
-- __April 14:__ Applications are dueat 11:30pm ET
+- __April 14:__ Applications are due at 11:30pm ET
 - __April - May:__ Applicants that make it past the first round will be contacted and interviewed.
 - __May:__ All applicants will be notified of whether or not they have been acceptanced.
 - __June 1st:__ Fellowship begins
