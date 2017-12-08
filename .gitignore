@@ -1,12 +1,11 @@
-.coverage.*
+# Ansible
+deployment/ansible/roles/azavea.*
+*.retry
 
-# Emacs
+# Vagrant
+.vagrant
 
-\#*#
-*~
-.#*
-
-# OS Files
-
-Thumbs.db
-.DS_Store
+# Jekyll
+_site
+.sass-cache
+.jekyll-metadata

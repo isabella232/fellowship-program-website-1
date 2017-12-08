@@ -1,96 +1,52 @@
-# Projects
+# fellowship-website
 
-A website that showcases projects! **If you want to use it and it's not exactly
-fitting your purpose, please do make upstream changes. We expect this project
-to be of use to others and we're happy to make it more generic so it's easier
-to adapt to other organizations.** This was built by coala community, to view
-live projects visit [projects.coala.io](https://projects.coala.io)
+The landing page for Azavea Fellowship website.
 
-(It'd be nice to have an organization YML or so e.g.)
+## Requirements
 
-## Purpose
+- Vagrant 2.0+
+- VirtualBox 5.1+
+- Ansible 2.4+
 
-This is designed for GSoC but can be used for other initiatives at the same
-time. We use it for research theses, GSoC, GCI and maybe others in the future.
+## Getting Started
 
-Why?
+From your workstation, execute the following command to bring up a Vagrant virtual machine with all of the necessary dependencies installed:
 
-- It's way more appealing to students.
-- You can search and filter projects.
-- Project ideas as structured data are more concise and you're sure to have all
-  points covered - at the same time we can show students an overview and showing
-  the full information only when needed.
-- A proper review process can be used for triaging and iterating on project
-  ideas.
-- Stop wasting time maintaining a mentors list. This can be generated from the
-  projects.
-
-## Usage
-
-To clone the repository and run this website on your local machine, type the following commands:
-
-    $ git clone https://github.com/coala/projects.git
-    $ cd projects
-    $ python -m SimpleHTTPServer 8080
-
-
-Then you can simply go to either of the following addresses in your browser to access the site:
-
-    0.0.0.0:8080
-    127.0.0.1:8080
-
-## Defining Projects
-
-Mentors and admins can define projects as JSON using the following structure:
-
-```json
-{
-  "name" : "Write Project Name Here",
-  "desc" : "Write a one line Description of Project here.",
-  "requirements" : [
-    "The applicant has to fulfill this to get started."
-  ],
-  "difficulty" : "low|medium|high",
-  "issues" : [
-    "https://github.com/coala/coala/issues/####"
-  ],
-  "mentors" : [
-    "sils",
-    "sims1253"
-  ],
-  "initiatives" : ["GSoC"],
-  "tags" : ["Plugins", "CI"],
-  "markdown" : "Add the markdown file in data/projects/ directory. The name of that .md file should come here.",
-  "collaborating_projects" : ["Add umbrella and sub-orgs here"]
-
-}
+```bash
+$ ./scripts/setup
 ```
 
-Sample Markdown File
+Next, login to the Vagrant virtual machine and launch the Jekyll services:
 
-This file should contain Project Description and Milestones in following format.
-_You should have atleast these three milestones for GSoC projects._
-
+```bash
+$ vagrant ssh
+vagrant@vagrant-ubuntu-trusty-64:/vagrant$ ./scripts/server
+Recreating vagrant_jekyll_1
+Attaching to vagrant_jekyll_1
+jekyll_1  | Configuration file: /usr/src/app/_config.yml
+jekyll_1  |             Source: /usr/src/app
+jekyll_1  |        Destination: /usr/src/app/_site
+jekyll_1  |  Incremental build: disabled. Enable with --incremental
+jekyll_1  |       Generating...
+jekyll_1  |                     done in 0.524 seconds.
+jekyll_1  |  Auto-regeneration: enabled for '/usr/src/app'
+jekyll_1  | Configuration file: /usr/src/app/_config.yml
+jekyll_1  |  LiveReload Server: 192.168.50.4:35729
+jekyll_1  |     Server address: http://192.168.50.4:4000/
+jekyll_1  |   Server running... press ctrl-c to stop.
+jekyll_1  |         LiveReload: Browser connected
 ```
-This space is for the main description. Use it wisely. 
 
-#### Milestones
+In order to build Jekyll's static website output, use:
 
-##### GSOC 2017 COMMUNITY BONDING
-
-* Conceptual work should be finished.
-* The student have a repository, know how to work with the community.
-* The applicant should know the community.
-
-##### GSOC 2017 MIDTERM
-
-* Everything listed here has to be reviewed and merged by midterm.
-* No exceptions to that. Changing the goals is possible together with mentors.
-* Yes, that includes tests and documentation.
-
-##### GSOC 2017 FINAL
-
-* Everything has to be reviewed and merged.
-* Including tests and docs, again.
-
+```bash
+$ ./scripts/update
 ```
+
+## URLs
+
+The Vagrant configuration creates a host-only private network between the virtual machine host and the Vagrant virtual machine. In order to access the content served by Jekyll, and the LiveReload endpoint, use the following links:
+
+| Service    | URL                                                    |
+|------------|--------------------------------------------------------|
+| Jekyll     | [`http://192.168.50.4:4000`](http://192.168.50.4:4000) |
