@@ -1,0 +1,37 @@
+section.join-us {
+  background-color: $white;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: $off-white;
+  box-shadow: $shadow-default;
+  align-items: center;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.c2a-image {
+  background: url(../assets/images/placeholder.png) no-repeat;
+  background-size: cover;
+  flex-basis: 55%;
+  min-height: 35rem;
+  justify-self: stretch;
+  align-self: stretch;
+
+  @media (max-width: 900px) {
+    height: 25rem;
+    min-height: initial;
+  }
+}
+
+.c2a-message {
+  padding: 4rem;
+  flex: 1;
+
+  h2 {
+    font-size: 3.6rem;
+  }
+}

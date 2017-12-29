@@ -1,0 +1,22 @@
+<header class="hero" id="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        {{ page.hero.title }}
+      </h1>
+      <h2 class="hero-subtitle">
+        {{ page.hero.subtitle }}
+      </h2>
+
+      {% if page.hero.buttons %}
+      <div class="hero-actions">
+        {% for button in page.hero.buttons %}
+          <a href="{{ button.button-link }}" class="btn {{ button.button-type }}">
+            {{ button.button-label }}
+          </a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</header>

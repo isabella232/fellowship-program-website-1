@@ -13,24 +13,41 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: Azavea Open Source Fellowship
+email: info@azavea.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: azavea
+github_username:  azavea
+
+fellowship_in_session: true # is there a fellowship upcoming or in session
+fellowship_timeframe: Summer 2018
+
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post" # automatically sets layout for projects
+      is_project: true # automatically set is_post=true for all projects
+      published: false # automatically sets all project as drafts
+      page_class: "projects"
 
 # Build settings
 markdown: kramdown
 
-theme: minima
-
 plugins:
   - jekyll-feed
+  - jekyll-avatar
 
 sass:
   sass_dir: _sass

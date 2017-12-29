@@ -1,0 +1,28 @@
+<section class="mentors">
+  <div class="container">
+    <div class="inner-content">
+      <div class="content-header">
+        <span class="content-mini-title">
+          {{ page.mentors.above-title }}
+        </span>
+        <h2 class="content-title">
+          {{ page.mentors.title }}
+        </h2>
+      </div>
+      <p class="content-blurb">{{ page.mentors.blurb }}</p>
+    </div>
+    <div class="mentor-list">
+      {% for mentor in site.data.mentors %}
+        <div class="mentor">
+          <a href="http://github.com/{{ mentor.github }}" class="mentor-image" title="@{{ mentor.github }} on github">
+            {% avatar user=mentor.github size=150 %}
+          </a>
+          <div class="mentor-name">{{ mentor.name }}</div>
+          <a href="http://github.com/{{ mentor.github }}" class="mentor-github" title="@{{ mentor.github }} on github" tabindex="-1">
+            @{{ mentor.github }}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

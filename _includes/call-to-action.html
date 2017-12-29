@@ -1,0 +1,43 @@
+<section class="join-us">
+  <div class="container">
+    <div class="inner-content">
+      <div class="content-header">
+        <span class="content-subtitle">
+          {% if site.fellowship_in_session %}
+          Join us
+          {% else %}
+          Until next time
+          {% endif %}
+        </span>
+        <h2 class="content-title">
+          {{ site.fellowship_timeframe }}
+          {% if site.fellowship_in_session != true %}
+          session is closed
+          {% endif %}
+        </h2>
+      </div>
+      <p class="content-blurb">
+        {% if site.fellowship_in_session %}
+        We look forward to getting to know you! Applications for the {{ site.fellowship_timeframe }} session of the Azavea Open Source Fellowship Program are now open.
+        {% else %}
+        Applications for the {{ site.fellowship_timeframe }} session of the Azavea Fellowship Program are now closed.
+        {% endif %}
+      </p>
+    </div>
+    <div class="row align-center">
+      <div class="column-10">
+        {% if site.fellowship_in_session %}
+        <div class="call-to-action form-signup">
+          <div class="c2a-image"></div>
+          <div class="c2a-message">
+            <h2>Are you ready to join the open source fellowship?</h2>
+            <a href="#" class="btn btn-ghost-primary">Apply now</a>
+          </div>
+        </div>
+        {% else %}
+        Until next time
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

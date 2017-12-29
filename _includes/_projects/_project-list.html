@@ -1,0 +1,51 @@
+{% comment %} Stores an array of unique tags from projects {% endcomment %}
+{% assign tags = site.projects | map: 'tags' | uniq %} 
+
+<div class="content-header">
+  <span class="content-mini-title">
+    {{ page.intro.above-title }}
+  </span>
+  <h2 class="content-title">
+    {{ page.intro.title }}
+  </h2>
+</div>
+<p class="content-blurb">{{ page.intro.blurb }}</p>
+
+</div> {% comment %} We need to close the `.inner-content` div from the `secondary.html` layout in order to get the `.project-list` to display full width. {% endcomment %}
+
+<div class="project-list" id="project-list">
+  <div class="project-filters">
+    <h4>Tags</h4>
+
+    {% comment %} List each unique tag {% endcomment %}
+    <ul class="filters">
+      {% for tag in tags %}
+        <li>
+          <a href="#" id="{{ tag | remove: ' ' }}">{{ tag }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% for project in site.projects %}
+
+    {% comment %} Stores project tags in array {% endcomment %}
+    {% assign projectTags = project.tags%} 
+    <div class="project" 
+         data-tag="
+          {%- for item in projectTags -%}
+          {{- item | remove: ' ' | append: ' ' -}}
+          {%- endfor -%}">
+      <div class="project-details">
+        <div class="project-title">
+          {{ project.title }}
+        </div>
+        <div class="project-excerpt">
+          {{ project.excerpt }}
+        </div>
+      </div>
+      <div class="project-action">
+        <a class="btn btn-ghost-secondary" href="{{ site.url }}{{ project.url }}">Read more</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
