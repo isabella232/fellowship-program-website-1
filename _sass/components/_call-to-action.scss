@@ -8,6 +8,29 @@ section.join-us {
   box-shadow: $shadow-default;
   align-items: center;
 
+  &.form-signup {
+    background-color: #0E4266;
+    color: $white;
+    box-shadow: none;
+    align-items: unset;
+    flex-direction: column;
+    padding: 2rem 4rem;
+
+    @media (max-width: 900px) {
+      padding: 2rem;
+    }
+
+    .btn-group {
+      margin-left: auto;
+    }
+
+    .close-button {
+      speak: none;
+      display: none;
+      user-select: none;
+    }
+  }
+
   @media (max-width: 900px) {
     flex-direction: column;
   }
@@ -30,6 +53,10 @@ section.join-us {
 .c2a-message {
   padding: 4rem;
   flex: 1;
+
+  @media (max-width: 900px) {
+    padding: 3rem 2rem;
+  }
 
   h2 {
     font-size: 3.6rem;

@@ -27,7 +27,7 @@
     <div class="row align-center">
       <div class="column-10">
         {% if site.fellowship_in_session %}
-        <div class="call-to-action form-signup">
+        <div class="call-to-action">
           <div class="c2a-image"></div>
           <div class="c2a-message">
             <h2>Achieve impact through open source contributions.</h2>
@@ -35,7 +35,9 @@
           </div>
         </div>
         {% else %}
-        Until next time
+        <div class="call-to-action form-signup">
+          {% include job-form.html %}
+        </div>
         {% endif %}
       </div>
     </div>

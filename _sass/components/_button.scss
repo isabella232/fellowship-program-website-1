@@ -46,8 +46,8 @@
 
   &:hover, &.hover,
   &:active, &.active, {
-    color: #fff;
-    background-color: lighten($base, 10%);
+    color: darken($base, 5%);
+    background-color: $off-white;
     text-decoration: none;
   }
 
@@ -85,6 +85,13 @@
   @include button-states($primary, $base);
 }
 
+.btn-secondary {
+  background: #3773A1;
+  color: $white;
+
+  @include button-states(#3773A1, $white);
+}
+
 .btn-ghost {
   background: none;
   color: $white;
@@ -112,4 +119,19 @@
 .btn-block {
   display: block;
   width: 100%;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1.5rem 0;
+
+  .btn { 
+    flex: 1;
+
+    + .btn {
+      margin-left: 1rem;
+    }
+  }
 }

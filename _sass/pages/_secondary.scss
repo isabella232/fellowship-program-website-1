@@ -1,5 +1,7 @@
 body.secondary {
   background-color: #D0D9E1;
+  background-image: url(/assets/images/topography-light.svg);
+  background-size: 30rem;
 
   .navbar nav a:not(.btn) {
     color: $black;

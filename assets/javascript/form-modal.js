@@ -3,8 +3,7 @@
 
 # vendor: "http://jquerymodal.com/"
 ---
-
-$('.form-modal-open').click(function(event) {
+$(".form-modal-open").click(function(event) {
   $(this).modal({
     fadeDuration: 250
   });
