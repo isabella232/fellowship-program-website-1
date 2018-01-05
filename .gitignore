@@ -9,3 +9,6 @@ deployment/ansible/roles/azavea.*
 _site
 .sass-cache
 .jekyll-metadata
+
+# OSX
+.DS_Store

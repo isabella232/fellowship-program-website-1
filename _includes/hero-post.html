@@ -1,0 +1,16 @@
+<header class="hero" id="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hero-mini-title">
+          {% if page.is_project %}
+          <a href="{{ site.baseurl }}/projects/">&#10094; Projects</a>
+          {% else %}
+          Post
+          {% endif %}
+        </span>
+        {{ page.title }}
+      </h1>
+    </div>
+  </div>
+</header>

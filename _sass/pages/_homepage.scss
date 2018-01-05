@@ -1,0 +1,18 @@
+body.homepage {
+  background-image: url(/assets/images/topography.svg);
+  background-size: 30rem;
+}
+
+section.mentors {
+  background-color: #1b2d3d;
+  color: $white;
+
+  .content-mini-title,
+  .content-title {
+    color: lighten($base, 55%);
+  }
+
+  .content-blurb {
+    color: $white;
+  }
+}

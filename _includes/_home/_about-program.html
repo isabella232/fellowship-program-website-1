@@ -1,0 +1,29 @@
+<section>
+  <div class="container">
+    <div class="inner-content">
+      <div class="content-header">
+        <span class="content-mini-title">
+          {{ page.about.above-title }}
+        </span>
+        <h2 class="content-title">
+          {{ page.about.title }}
+        </h2>
+      </div>
+      <p class="content-blurb">{{ page.about.blurb }}</p>
+    </div>
+    <div class="row stack-xs">
+      <div class="column">
+        <img src="assets/images/placeholder.png" alt="">
+      </div>
+      <div class="column">
+        <h3>Program benefits</h3>
+        <ul>
+          {% for benefit in page.about.benefits %}
+            <li>{{ benefit.list-item }}</li>
+          {% endfor %}
+        </ul>
+        <a href="#" class="btn btn-primary">More</a>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,20 @@
+body.secondary {
+  background-color: #D0D9E1;
+  background-image: url(/assets/images/topography-light.svg);
+  background-size: 30rem;
+
+  .navbar nav a:not(.btn) {
+    color: $black;
+  }
+  
+  .inner-content > {
+    h1, h2, h3, h4, h5, h6,
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+      margin-top: 5rem;
+
+      &:first-of-type {
+        margin-top: 0;
+      }
+    }
+  }
+}

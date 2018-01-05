@@ -1,0 +1,38 @@
+.job-form {
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form-group,
+  .btn-group {
+    flex-basis: 48%;
+
+    @media (max-width: 900px) {
+      flex-basis: 100%;
+      width: 100%;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select {
+    color: $white;
+    width: 100%;
+    background-color: rgba($black, .4);
+  }
+
+  input[type="submit"] {
+    color: $primary;
+  }
+}
+
+.job-form-blurb {
+  max-width: 60%;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
+  }
+}
