@@ -9,6 +9,7 @@
 
   .container {
     display: flex;
+    max-width: 1190px;
 
     @include respond-to('xs') {
       flex-direction: column;

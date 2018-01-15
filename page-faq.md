@@ -22,7 +22,7 @@ hero:
 - You must meet the <a href="/about">eligibility requirements</a> found on the About page
 - You'll be an Azavea employee during the fellowship, so you'll need to sign an employment agreement
 - Sign an Eclipse contributor license agreement (required for some GeoTrellis projects)
-- Be able to work full-time in our <a href="https://azavea.com/directions" target="_blank">Philadelphia office</a>
+- Be able to work full-time in our <a href="https://azavea.com/directions">Philadelphia office</a>
 - Choose a Proposed Project or submit you own idea
 
 {:.faq #faq-2}
@@ -37,7 +37,7 @@ See the timline on the [About page]({{ site.baseurl }}{% link page-about.md %}).
 
 {:.faq #faq-4}
 #### [#](#faq-4){:class="anchor-link" title="anchor link"} What are my obligations as a student during the Summer 2017 Azavea Fellowship Program?
-- Work full-time in our <a href="https://azavea.com/directions" target="_blank">Philadelphia office</a>
+- Work full-time in our <a href="https://azavea.com/directions">Philadelphia office</a>
 - Be communicative with your mentor and other Azavea staff as you work on your project
 - Participate in the open source community by being active on mailing lists, on GitHub, in Gitter, etc.
 - Create contributions to the open source community as part of this fellowship

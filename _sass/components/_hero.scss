@@ -1,10 +1,14 @@
 .hero {
   padding-top: 16rem;
   padding-bottom: 4rem;
+
+  .container {
+    max-width: 1190px;
+  }
 }
 
 .hero-content {
-  width: 60%;
+  width: 54%;
 
   @media (max-width: 900px) {
     width: 100%;

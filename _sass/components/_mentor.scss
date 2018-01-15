@@ -16,6 +16,8 @@
 
   .avatar {
     border-radius: 100%;
+    width: 15rem;
+    max-width: 100%;
   }
 
   .mentor-name {
@@ -29,6 +31,11 @@
     color: white;
     transition: .2s ease-in-out opacity;
     user-select: none;
+
+    img {
+      max-width: 1.5rem;
+      margin-right: 5px;
+    }
   }
 
   @media (max-width: 900px) {

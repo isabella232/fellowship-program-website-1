@@ -10,6 +10,7 @@
   github: jbouffard
 - name: Grigory
   github: pomadchin
+  image: grigory.jpg
 - name: Derek Dohler
   github: ddohler
 - name: Hector Castro

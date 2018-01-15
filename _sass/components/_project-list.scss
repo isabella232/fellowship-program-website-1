@@ -27,6 +27,8 @@
   margin: 0 -5px;
   padding: 0;
   display: flex;
+  white-space: nowrap;
+  overflow: auto;
 
   li {
     padding: 0;
@@ -76,10 +78,27 @@
 
   .project-excerpt {
     font-weight: 400;
+
+    @media (max-width: 740px) {
+      font-size: 1.4rem;
+    }
   }
 
   .project-action {
     flex-basis: 20rem;
     text-align: right;
+  }
+
+  @media (max-width: 740px) {
+    flex-direction: column;
+
+    .project-details {
+
+    }
+
+    .project-action {
+      flex: none;
+      margin-top: 1rem;
+    }
   }
 }

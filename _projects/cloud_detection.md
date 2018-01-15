@@ -8,10 +8,13 @@ seo_description: "" # goes in project meta description
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
   - "Familiarity with Keras, TensorFlow and CNN architectures"
+
 tags: # one tag per line – spaces are allowed in tags – use tags other posts use – follow below format
   - "deep learning"
   - "machine learning"
+
 difficulty: "hard" # easy, medium, hard – pick one
+
 mentors: # github username without the @ – example: designmatty
   - "jerheff"
   - "lossyrob"
@@ -22,22 +25,22 @@ mentors: # github username without the @ – example: designmatty
 
 At Azavea, we have been researching the use of convolutional neural networks for image segmentation on aerial imagery (see <https://github.com/azavea/keras-semantic-segmentation>). This project will expand this research to use CNNs, or possibly RNNs over temporal imagery, to classify cloud cover in RGB images.
 
-#### Milestones
+## Milestones
 
-##### PREPARATION
+#### Preparation
 
 - Determine the project roadmap.
 - Getting familiar with existing keras image segmentation code
 
-##### CODING PHASE 1
+#### Coding phase 1
 
 - Modify existing keras image segmentation codebase to train on imagery
 
-##### CODING PHASE 2
+#### Coding phase 2
 
 - Development and evaluation of NN architectures for identifying clouds in RGB imagery
 - Developing a workflow for classifying clouds in imagery based on trained models.
 
-##### CODING PHASE 3
+#### Coding phase 3
 
 - Documenting and publish results

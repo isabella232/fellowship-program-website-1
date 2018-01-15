@@ -39,7 +39,7 @@
           {%- endfor -%}">
       <div class="project-details">
         <div class="project-title">
-          {{ project.title }}
+          <a href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
         </div>
         <div class="project-excerpt">
           {{ project.excerpt }}
