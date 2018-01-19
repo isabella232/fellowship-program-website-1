@@ -15,11 +15,15 @@
       {% for mentor in site.data.mentors %}
         <div class="mentor">
           <a href="https://github.com/{{ mentor.github }}" class="mentor-image" title="@{{ mentor.github }} on github">
-            {% avatar user=mentor.github size=150 %}
+            {% if mentor.image %}
+              <img class="avatar" src="{{ site.baseurl }}/assets/images/mentors/{{ mentor.image }}" alt="{{ mentor.name }}">
+            {% else %}
+              {% avatar user=mentor.github size=150 %}
+            {% endif %}
           </a>
           <div class="mentor-name">{{ mentor.name }}</div>
           <a href="https://github.com/{{ mentor.github }}" class="mentor-github" title="@{{ mentor.github }} on github" tabindex="-1">
-            @{{ mentor.github }}
+            <img src="/assets/icons/icon-github.svg" alt="Azavea github"> {{ mentor.github }}
           </a>
         </div>
       {% endfor %}

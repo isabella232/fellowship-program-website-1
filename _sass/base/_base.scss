@@ -24,6 +24,7 @@ a {
   text-decoration: none;
   font-weight: 400;
   color: $primary;
+  word-wrap: break-word;
 
   &:hover {
     color: darken($primary, 10%);

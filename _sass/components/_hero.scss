@@ -1,10 +1,14 @@
 .hero {
   padding-top: 16rem;
   padding-bottom: 4rem;
+
+  .container {
+    max-width: 1190px;
+  }
 }
 
 .hero-content {
-  width: 60%;
+  width: 54%;
 
   @media (max-width: 900px) {
     width: 100%;
@@ -29,7 +33,7 @@
 
 .hero-title {
   font-size: 3.6rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 
   .homepage & {
     color: $white;
