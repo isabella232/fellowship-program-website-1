@@ -8,7 +8,13 @@
         <a href="/about">About</a>
         <a href="/projects">Projects</a>
         <a href="/faq">FAQ</a>
-        <a href="#" class="btn btn-primary">Apply</a>
+        {% if site.fellowship_in_session %}
+          <a href="#" class="btn btn-primary">Apply</a>
+        {% else %}
+          <a href="#job-alert-modal" class="btn btn-ghost form-modal-open" rel="modal:open">
+            Receive alerts
+          </a>
+        {% endif %}
       </nav>
     </div>
   </div>
