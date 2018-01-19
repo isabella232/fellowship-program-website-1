@@ -41,7 +41,7 @@
   user-select: none;
   background: #fff;
   color: $base;
-  transition: .2s ease-in-out box-shadow;
+  transition: .2s ease-in-out box-shadow, .2s ease-in-out color, .2s ease-in-out background;
   text-transform: uppercase;
 
   &:hover, &.hover,
