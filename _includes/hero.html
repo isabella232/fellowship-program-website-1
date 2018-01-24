@@ -10,11 +10,17 @@
 
       {% if page.hero.buttons %}
       <div class="hero-actions">
-        {% for button in page.hero.buttons %}
-          <a href="{{ button.button-link }}" class="btn {{ button.button-type }}">
-            {{ button.button-label }}
+        {% if site.fellowship_in_session %}
+          {% for button in page.hero.buttons %}
+            <a href="{{ button.button-link }}" class="btn {{ button.button-type }}">
+              {{ button.button-label }}
+            </a>
+          {% endfor %}
+        {% else %}
+          <a href="#job-alert-modal" class="btn btn-ghost form-modal-open" rel="modal:open">
+            Sign up for alerts
           </a>
-        {% endfor %}
+        {% endif %}
       </div>
       {% endif %}
     </div>

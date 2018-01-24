@@ -6,6 +6,10 @@ body.secondary {
   .navbar nav a:not(.btn) {
     color: $black;
   }
+
+  .navbar .btn-ghost {
+    color: $black;
+  }
   
   .inner-content > {
     h1, h2, h3, h4, h5, h6,
