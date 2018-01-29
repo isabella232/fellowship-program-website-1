@@ -26,6 +26,8 @@ mentors: # github username without the @ – example: designmatty
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
 
+Build on existing work to create a proof-of-concept static site or mobile data collection app based around flexible data schemas.
+
 # MILESTONES
 
 ## PREPARATION
