@@ -2,7 +2,7 @@
 published: false # change to true once ready to post
 
 title: "Ashlar" # project title inside quotes
-excerpt: "Ashlar schema editor in Django admin" # shows on project list page
+excerpt: "Flexible schema framework for geospatial data" # shows on project list page
 seo_description: "" # goes in project meta description
 
 # project attributes
@@ -15,10 +15,13 @@ tags: # one tag per line – spaces are allowed in tags – follow below format
   - "django"
   - "jsonb"
   - "postgresql"
+  - "jsonschema"
 difficulty: "hard" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
   - "ddohler"
-  - ???
+  - "KlaasH"
+  - "flibbertigibbet"
+  - "CloudNiner"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
@@ -27,16 +30,21 @@ mentors: # github username without the @ – example: designmatty
 
 ## PREPARATION
 
-- Familiarization with Ashlar project
-- 
+- Familiarization with Ashlar and DRIVER projects
 
-## CODING PHASE 1
+## SPECIFICATION
 
-- Bring Ashlar project dependencies up to date
-- Support Python 3 (?)
-- ??? more detail
+- Create specification (ideally in JSONSchema) for Ashlar data modeling conventions
 
-## CODING PHASE 2
+## LOW-COST BACKEND
 
-- Implement JsonEditorField such that user's can directly edit json data via the Django admin pages 
-- ??? more detail or change to different task
+- Evaluate and choose a cloud-based NoSQL provider to serve as a data layer.
+
+## OPTION 1: STATIC PROOF-OF-CONCEPT
+
+- Create a static app which can filter and display polygons and points on a map using the data store chosen previously.
+
+## OPTION 2: DATA COLLECTION PROOF-OF-CONCEPT
+
+- Familiarize with DRIVER-Android project
+- Create an data collection Android app which auto-generates forms and allows filled-in forms to be pushed to the data store chosen previously.
