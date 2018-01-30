@@ -51,6 +51,9 @@ on demand.
 
 - Reimplement Lambnik in Node.js
 
+The Python bindings for Mapnik are incomplete and not actively maintained.  The Node version is
+more complete, including support for vector tiles.
+
 #### Coding Phase 2
 
 - Make raster tile styling configurable (load the Mapnik XML from a configurable source)
