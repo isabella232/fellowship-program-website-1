@@ -2,7 +2,7 @@
 layout: secondary
 permalink: "/faq/"
 title: "FAQ"
-seo_description: ""
+seo_description: "The Azavea Open Source Fellowship Program is a 12-week professional training fellowship that matches software engineering fellows with impactful open source projects."
 page_class: ""
 
 

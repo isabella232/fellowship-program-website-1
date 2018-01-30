@@ -1,8 +1,8 @@
 ---
 layout: secondary
 permalink: "/about/"
-title: "About the program"
-seo_description: ""
+title: "About"
+seo_description: "The Azavea Open Source Fellowship Program is a 12-week professional training fellowship that matches software engineering fellows with impactful open source projects."
 page_class: about
 use-intro-imagery: true
 
