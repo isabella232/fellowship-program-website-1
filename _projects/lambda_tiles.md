@@ -54,10 +54,15 @@ on demand.
 The Python bindings for Mapnik are incomplete and not actively maintained.  The Node version is
 more complete, including support for vector tiles.
 
+Outcome: a proof-of-concept raster tile source serving custom data via Node on Lambda.
+
 #### Coding Phase 2
 
 - Make raster tile styling configurable (load the Mapnik XML from a configurable source)
 - Streamline and document the deployment process
+
+Outcome: a basic raster tile source for custom data that could be added to a project in
+lieu of Windshaft.
 
 #### Coding Phase 3
 
@@ -67,3 +72,5 @@ more complete, including support for vector tiles.
 - Create a static HTML demo page
    - Using Mapbox GL JS
    - Possibly also using Leaflet
+
+Outcome: a proof-of-concept demo of a vector-tile-based interactive map of custom data.
