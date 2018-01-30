@@ -3,7 +3,7 @@ published: false # change to true once ready to post
 
 title: "Ashlar" # project title inside quotes
 excerpt: "Flexible schema framework for geospatial data" # shows on project list page
-seo_description: "" # goes in project meta description
+seo_description: "Azavea Open Source software engineering fellows choose from impactful open source projects as part of the application process." # goes in project meta description
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
@@ -16,7 +16,7 @@ tags: # one tag per line – spaces are allowed in tags – follow below format
   - "jsonb"
   - "postgresql"
   - "jsonschema"
-difficulty: "hard" # easy, medium, hard – pick one
+difficulty: "Hard" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
   - "ddohler"
   - "KlaasH"

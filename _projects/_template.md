@@ -16,7 +16,7 @@ tags: # one tag per line – spaces are allowed in tags – use tags other post
   - ""
   - ""
 
-difficulty: "" # easy, medium, hard – pick one
+difficulty: "" # Easy, Medium, Hard – pick one
 
 mentors: # github username without the @ – example: designmatty
   - ""
