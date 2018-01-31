@@ -3,7 +3,6 @@ published: false
 
 title: "Lambda Tilegarden" # project title inside quotes
 excerpt: "Lambda-based raster and vector tile generation from PostGIS data" # shows on project list page
-seo_description: "Render Mapnik raster tiles or Mapbox vector tiles from a PostGIS data source using Lambda" # goes in project meta description
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
@@ -18,7 +17,7 @@ tags: # one tag per line – spaces are allowed in tags – use tags other post
   - "raster tiles"
   - "vector tiles"
 
-difficulty: "medium" # easy, medium, hard – pick one
+difficulty: "Medium" # easy, medium, hard – pick one
 
 mentors: # github username without the @ – example: designmatty
   - "KlaasH"

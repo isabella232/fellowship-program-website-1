@@ -1,8 +1,7 @@
 ---
 layout: secondary
 permalink: "/about/"
-title: "About the program"
-seo_description: ""
+title: "About"
 page_class: about
 use-intro-imagery: true
 

@@ -3,7 +3,6 @@ published: true # change to true once ready to post
 
 title: "Foot Steps of Rome: Calculating the Cost of Travel in the Roman Empire" # project title inside quotes
 excerpt: "Calculate the cost of traveling between ancient Roman population centers" # shows on project list page
-seo_description: "" # goes in project meta description
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
@@ -13,7 +12,7 @@ requirements: # bullet list of requirements – one requirement per line – fol
 tags: # one tag per line – spaces are allowed in tags – follow below format
  - "Geospatial analysis"
  - "Python"
-difficulty: "medium" # easy, medium, hard – pick one
+difficulty: "Medium" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
  - "jbouffard"
  - "moradology"
@@ -23,7 +22,7 @@ mentors: # github username without the @ – example: designmatty
 
 This project seeks to use [GeoPySpark](https:///github.com/locationtech-labs/geopyspark), a Python library
 for analyzing geospatial data, to produce novel datasets which can be used by archaeologists, classicists, and
-historians. Initial work will include calculation of tobler cost-rasters for a better better understanding the
+historians. Initial work will include calculation of tobler cost-rasters for a better understanding the
 cost of travel in the Roman Empire. Ideally, this project would produce multi-modal cost-surfaces which include
 information about ports and knowledge derived from reconstruction of technologies from the era.
 

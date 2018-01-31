@@ -3,7 +3,6 @@ published: true # change to true once ready to post
 
 title: "Cloud detection with neural networks" # project title inside quotes
 excerpt: "Apply neural network techniques being researched by Azavea staff to the problem of cloud detection in satellite imagery." # shows on project list page
-seo_description: "" # goes in project meta description
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
@@ -13,7 +12,7 @@ tags: # one tag per line – spaces are allowed in tags – use tags other post
   - "deep learning"
   - "machine learning"
 
-difficulty: "hard" # easy, medium, hard – pick one
+difficulty: "Hard" # easy, medium, hard – pick one
 
 mentors: # github username without the @ – example: designmatty
   - "jerheff"

@@ -2,7 +2,6 @@
 layout: secondary
 permalink: "/faq/"
 title: "FAQ"
-seo_description: ""
 page_class: ""
 
 

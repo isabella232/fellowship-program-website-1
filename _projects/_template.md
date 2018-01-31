@@ -5,7 +5,6 @@ published: false # change to true once ready to post
 
 title: "" # project title inside quotes
 excerpt: "" # shows on project list page
-seo_description: "" # goes in project meta description
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
@@ -16,7 +15,7 @@ tags: # one tag per line – spaces are allowed in tags – use tags other post
   - ""
   - ""
 
-difficulty: "" # easy, medium, hard – pick one
+difficulty: "" # Easy, Medium, Hard – pick one
 
 mentors: # github username without the @ – example: designmatty
   - ""
