@@ -55,5 +55,12 @@ Although this fellowship program has a specific term limit, Azavea offers some a
 - Paid Sick Leave: One day of paid sick leave is available, should you need it.
 
 {:.faq #faq-6}
-#### [#](#faq-6){:class="anchor-link" title="anchor link"} What if I have additional questions?
+#### [#](#faq-6){:class="anchor-link" title="anchor link"} How can I help to promote this program?
+If you know students who might be interested in our program, please send them a link to the application.
+
+If you are interested in proposing additional collaboration or need other supporting material, please contact us at <PeopleOps@azavea.com>.
+
+
+{:.faq #faq-7}
+#### [#](#faq-7){:class="anchor-link" title="anchor link"} What if I have additional questions?
 Please email us at <fellowship@azavea.com> with any additional questions.
