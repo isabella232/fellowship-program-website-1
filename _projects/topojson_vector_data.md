@@ -3,7 +3,6 @@ published: true # change to true once ready to post
 
 title: "Implement topojson reader/writer for vector data"
 excerpt: "A Scala implementation of the TopoJSON format in GeoTrellis"
-seo_description: "Azavea Open Source software engineering fellows choose from impactful open source projects as part of the application process."
 page-class: projects
 
 # project attributes
