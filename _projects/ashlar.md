@@ -1,5 +1,5 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 
 title: "Ashlar" # project title inside quotes
 excerpt: "Flexible schema framework for geospatial data" # shows on project list page
@@ -25,7 +25,16 @@ mentors: # github username without the @ – example: designmatty
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
 
-Build on existing work to create a proof-of-concept static site or mobile data collection app based around flexible data schemas.
+[Ashlar](https://github.com/azavea/ashlar) is a open source Django based tool that provides a way of attaching flexible metadata to geospatial records. The technology supports the following functionality:
+- Editing data schema using a graphical user interface
+- Validating data entry against configured schema
+- Storage of related entities within a single record
+- Fast filtering on user-defined field values
+- Geospatial filtering
+- Auto-generation of frontend display elements such as filter controls to match active schema
+
+
+This purpose of this project is to build on existing work to create a proof-of-concept static site or mobile data collection app based around flexible data schemas.
 
 # MILESTONES
 
