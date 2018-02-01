@@ -40,7 +40,7 @@ Fellows work closely with experienced Azavea mentors to expand on software engin
 - Receive relocation assistance, if eligible
 
 ### Timeline
-- **March 19th:** Applications are due on the 15th, "Anywhere On Earth" - meaning, if anyone on earth it's March 19th or before, applications are still open.
+- **March 19th:** Applications are due on the 19th, "Anywhere On Earth" - meaning, if anyone on earth it's March 19th or before, applications are still open.
 - **March - April:** Applicants that make it past the first round will be contacted and interviewed.
 - **April:** All applicants will be notified of whether or not they have been acceptanced.
 - **June 4th:** Fellowship begins
