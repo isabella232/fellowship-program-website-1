@@ -32,7 +32,7 @@ mentors: # github username without the @ – example: designmatty
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
 
-[OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner) is an open source multi-modal trip planner that utilizes [OpenStreetMap](http://www.openstreetmap.org/) and [GTFS](https://developers.google.com/transit/gtfs/ )data for journey planning. Azavea has utilized OpenTripPlanner in a number of our professional services work with great success. This project is about contributing back to the OpenTripPlanner project.
+[OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner) is an open source multi-modal trip planner that utilizes [OpenStreetMap](http://www.openstreetmap.org/) and [GTFS](https://developers.google.com/transit/gtfs/) data for journey planning. Azavea has utilized OpenTripPlanner in a number of our professional services work with great success. This project is about contributing back to the OpenTripPlanner project.
 
 While we don't have exact changes to OpenTripPlanner in mind, there are a [number of open issues](https://github.com/opentripplanner/OpenTripPlanner/issues) and a lot of potential to make impactful contributions to the project. The mentors have significant experience with the project and will be able to guide you through the codebase and the contribution process. If you have your own ideas on improvements to OpenTripPlanner, let us know!
 

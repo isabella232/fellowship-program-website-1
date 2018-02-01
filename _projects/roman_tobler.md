@@ -28,7 +28,7 @@ information about ports and knowledge derived from reconstruction of technologie
 
 # Milestones
 
-## Preperation
+## Preparation
 
 - Become familiar with the GeoPySpark codebase and its environment
 - Create a roadmap
