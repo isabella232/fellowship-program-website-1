@@ -36,22 +36,33 @@ mentors: # github username without the @ – example: designmatty
 
 While we don't have exact changes to OpenTripPlanner in mind, there are a [number of open issues](https://github.com/opentripplanner/OpenTripPlanner/issues) and a lot of potential to make impactful contributions to the project. The mentors have significant experience with the project and will be able to guide you through the codebase and the contribution process. If you have your own ideas on improvements to OpenTripPlanner, let us know!
 
-# MILESTONES
+## Milestones
 
-## PREPARATION
+#### Preparation
+
+In the beginning of the project you will prepare by:
 
 - Familiarization with OpenTripPlanner project
 - Introducing yourself to the community and understanding their contribution process
 - Creating a roadmap of issues to tackle
 
-## Phase 1: Bug Bashing and Documentation
+#### Coding Phase 1: Bug Bashing and Documentation
 
-Close out a few easy issues, contribute some documentation, and get some pull requests accepted! The best way to start contributing to an open source project is to start small. Once you get the swing of things, it will be easier to move on to bigger challenges.
+In this coding phase, you will begin making small contributions. The best way to start contributing to an open source project is to start small. Once you get the swing of things, it will be easier to move on to bigger challenges.
 
-## Phase 2: Tackle larger issue
+- Close out a few easy issues
+- Contribute some documentation
+- Get some pull requests accepted!
+
+#### Coding Phase 2: Tackle larger issue
 
 After becoming a contributor, you will work with the core committers and the community to find a larger task to take on, either by coming up with one yourself or finding a pre-existing issue to tackle.
 
-## Phase 3: Document your experience
+- Work with the community to decide on a larger feature or fix
+
+#### Coding Phase 3: Document your experience
 
 Contributing to open source projects is always a unique and rich experience. You'll write a blog post to help others that are interested in contributing to OpenTripPlanner and open source in general, and to document your experience. Depending on the issue tackled, this could a technical demonstration (like a demo site) to show off your new feature.
+
+- Write a blog post
+- Keep contributing! There's more work to be done and someone has to do it, right?

@@ -39,29 +39,33 @@ The objectives of this project are three-fold:
 2. Analyze results
 3. Develop tool
 
-# MILESTONES
+## Milestones
 
-## PREPARATION
+#### Preparation
+
+In the beginning of the project you will prepare by:
 
 - Familiarization with existing BusPlan code
-- Explore the pros and cons of migrating project from OptaPlanner to [Google Optimization Tools](https://developers.google.com/optimization/)
+- Explore the pros and cons of migrating project from OptaPlanner to [Google Optimization Tools](htntps://developers.google.com/optimization/)
 - Create a roadmap
 
-## Phase 1: AUGMENT SOLVER FUNCTIONALITY
+#### Coding Phase 1:
+
+In this phase you will augment the existing solver functionality.
 
 - Parameterize a series of additional variables (e.g. bus fleet size and capacity, student age)
 - Enable solver to account for additional constraints (e.g. students with special needs)
 - Incorporate tiering (i.e. the ability for one bus to transport students to multiple different schools)
 
-## Phase 2: ANALYZE RESULTS
+#### Coding Phase 2:
 
-Conduct iterative small research projects that provide insight into solver results and inform decisions about additional features of the solver.  Here are examples of some questions that may be investigated:
+This coding phase focuses on analyzing results. You will conduct iterative small research projects that provide insight into solver results and inform decisions about additional features of the solver. Here are examples of some questions that may be investigated:
 
 - How do metrics differ for plans optimized for student ride time as opposed to overall bus time?
 - How does removing students who are geographical outliers affect overall student ride time?
 - What is the added benefit of creating new bus stops from existing intersections?
 
-## Phase 3: DEVELOP TOOL
+#### Coding Phase 3:
 
 Help convert current work into a reproducible open-source tool.
 

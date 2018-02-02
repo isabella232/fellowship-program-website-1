@@ -11,7 +11,7 @@ requirements: # bullet list of requirements – one requirement per line – fol
  - "Knowledge of Scala and Roman history not required but helpful"
 tags: # one tag per line – spaces are allowed in tags – follow below format
  - "Geospatial analysis"
- - "Python"
+ - "python"
 difficulty: "Medium" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
  - "jbouffard"
@@ -26,25 +26,33 @@ historians. Initial work will include calculation of tobler cost-rasters for a b
 cost of travel in the Roman Empire. Ideally, this project would produce multi-modal cost-surfaces which include
 information about ports and knowledge derived from reconstruction of technologies from the era.
 
-# Milestones
+## Milestones
 
-## Preparation
+#### Preparation
+
+In the beginning of the project you will prepare by:
 
 - Become familiar with the GeoPySpark codebase and its environment
 - Create a roadmap
 
-## Coding Phase 1
+#### Coding Phase 1
+
+In the first coding phase, you'll create a juptyer notebook using GeoPySpark to do cost distance calculations.
 
 - Create a Tobler walking speed notebook
 - Expand notebook to include cost distance calculations
 
-## Coding Phase 2
+#### Coding Phase 2
+
+In the second coding phase, you'll further the analysis by determining the changes through time for cost.
 
 - Optimize relevant processes in GeoTrellis/GPS
 - Calculate cost distances at other points in time
 - Determine the changes in cost between time periods
 
-## Coding Phase 3
+#### Coding Phase 3
+
+In the final coding phase, you'll encorporate new data into the analysis, produce graphics, and write up your results in a blog post.
 
 - Seek to include knowledge about ports, sea travel, and technologies from the era
 - Potential branching out to draw inferences about trade
