@@ -39,9 +39,11 @@ The goal of this project is to create a configurable, adaptable, and fully open-
 and demo implementation for using Lambda and a PostGIS data source to produce custom tiles
 on demand.
 
-### Milestones
+## Milestones
 
 #### Preparation
+
+In the beginning of the project you will prepare by:
 
 - Familiarization with [Lambnik](https://github.com/azavea/lambnik)
 - Familiarization with Mapnik styling and rendering
@@ -49,22 +51,24 @@ on demand.
 
 #### Coding Phase 1
 
-- Reimplement Lambnik in Node.js
-
 The Python bindings for Mapnik are incomplete and not actively maintained.  The Node version is
 more complete, including support for vector tiles.
 
-Outcome: a proof-of-concept raster tile source serving custom data via Node on Lambda.
+- Reimplement Lambnik in Node.js
+- Outcome: a proof-of-concept raster tile source serving custom data via Node on Lambda.
 
 #### Coding Phase 2
 
+In this coding phase, you will be configuring, deploying and testing the new Node.js-based Lambnik server.
+
 - Make raster tile styling configurable (load the Mapnik XML from a configurable source)
 - Streamline and document the deployment process
-
-Outcome: a basic raster tile source for custom data that could be added to a project in
+- Outcome: a basic raster tile source for custom data that could be added to a project in
 lieu of Windshaft.
 
 #### Coding Phase 3
+
+In the final coding phase you will be integrating vector tile support.
 
 - Add vector tile generation
 - Pull layer spec from configurable source
@@ -72,5 +76,4 @@ lieu of Windshaft.
 - Create a static HTML demo page
    - Using Mapbox GL JS
    - Possibly also using Leaflet
-
-Outcome: a proof-of-concept demo of a vector-tile-based interactive map of custom data.
+- Outcome: a proof-of-concept demo of a vector-tile-based interactive map of custom data.

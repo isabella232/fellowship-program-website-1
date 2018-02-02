@@ -36,25 +36,36 @@ mentors: # github username without the @ – example: designmatty
 
 This purpose of this project is to build on existing work to create a proof-of-concept static site or mobile data collection app based around flexible data schemas.
 
-# MILESTONES
+## Milestones
 
-## PREPARATION
+#### Preparation
 
-- Familiarization with Ashlar and DRIVER projects
+In the beginning of the project you will prepare by:
 
-## SPECIFICATION
+- Familiarization with Ashlar project
+- Familiarization with DRIVER projects
+
+#### Coding Phase 1
+
+In this phase you will create a data specification for Ashlar.
 
 - Create specification (ideally in JSONSchema) for Ashlar data modeling conventions
 
-## LOW-COST BACKEND
+#### Coding Phase 2
+
+In this phase of coding, you will be exploring a low-cost backend option for Ashlar.
 
 - Evaluate and choose a cloud-based NoSQL provider to serve as a data layer.
 
-## OPTION 1: STATIC PROOF-OF-CONCEPT
+#### Coding Phase 3
 
-- Create a static app which can filter and display polygons and points on a map using the data store chosen previously.
+There are a couple of options for the final phase:
 
-## OPTION 2: DATA COLLECTION PROOF-OF-CONCEPT
+##### Option 1
+Create a static app which can filter and display polygons and points on a map using the data store chosen previously.
+
+##### Option 2
+Create a proof-of-concept application for data collection, including:
 
 - Familiarize with DRIVER-Android project
 - Create an data collection Android app which auto-generates forms and allows filled-in forms to be pushed to the data store chosen previously.
