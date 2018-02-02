@@ -11,7 +11,7 @@ requirements: # bullet list of requirements – one requirement per line – fol
  - "Knowledge of Scala and Roman history not required but helpful"
 tags: # one tag per line – spaces are allowed in tags – follow below format
  - "Geospatial analysis"
- - "Python"
+ - "python"
 difficulty: "Medium" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
  - "jbouffard"
