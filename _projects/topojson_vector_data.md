@@ -17,7 +17,7 @@ tags:
 difficulty: "Medium"
 
 mentors:
-  - "lossyrob"
+  - "pomadchin"
   - "echeipesh"
 
 issues: # Github issues related to this project

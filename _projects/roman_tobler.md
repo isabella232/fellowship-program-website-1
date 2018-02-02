@@ -28,7 +28,7 @@ information about ports and knowledge derived from reconstruction of technologie
 
 # Milestones
 
-## Preperation
+## Preparation
 
 - Become familiar with the GeoPySpark codebase and its environment
 - Create a roadmap
@@ -50,4 +50,4 @@ information about ports and knowledge derived from reconstruction of technologie
 - Potential branching out to draw inferences about trade
 - Create a single layer that shows the differences in costs
 - Produce graphics and/or interactive maps
-- Presentation (?)
+- A blog post about the work

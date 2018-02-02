@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 
 title: "Lambda Tilegarden" # project title inside quotes
 excerpt: "Lambda-based raster and vector tile generation from PostGIS data" # shows on project list page
@@ -13,6 +13,7 @@ requirements: # bullet list of requirements – one requirement per line – fo
 tags: # one tag per line – spaces are allowed in tags – use tags other posts use
   - "python"
   - "nodejs"
+  - "postgresql"
   - "AWS Lambda"
   - "raster tiles"
   - "vector tiles"

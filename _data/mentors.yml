@@ -1,19 +1,25 @@
-- name: Rob Emanuele
-  github: lossyrob
-- name: Eugene Cheipesh
-  github: echeipesh
-- name: Chris Brown
-  github: notthatbreezy
-- name: Lewis Fishgold
-  github: lewfish
-- name: Jacob Bouffard
-  github: jbouffard
-- name: Grigory
-  github: pomadchin
-  image: grigory.jpg
+- name: Andrew Fink
+  github: CloudNiner
 - name: Derek Dohler
   github: ddohler
-- name: Hector Castro
-  github: hectcastro
+- name: Eugene Cheipesh
+  github: echeipesh
+- name: Grigory Pomadchin
+  github: pomadchin
+  image: grigory.jpg
+- name: Jacob Bouffard
+  github: jbouffard
+- name: James McClain
+  github: jamesmcclain
+- name: Katheryn Killbrew
+  github: flibbertigibbet
+- name: Klaas Hoekema
+  github: KlaasH
+- name: Lewis Fishgold
+  github: lewfish
 - name: Nathan Zimmerman
   github: moradology
+- name: Rob Emanuele
+  github: lossyrob
+- name: Simon Kassel
+  github: simonkassel

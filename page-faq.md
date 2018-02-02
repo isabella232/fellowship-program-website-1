@@ -20,15 +20,13 @@ hero:
 #### [#](#faq-1){:class="anchor-link" title="anchor link"} What are the requirements to be accepted for Azavea Fellowship?
 - You must meet the <a href="/about">eligibility requirements</a> found on the About page
 - You'll be an Azavea employee during the fellowship, so you'll need to sign an employment agreement
-- Sign an Eclipse contributor license agreement (required for some GeoTrellis projects)
+- Sign a Contributor License Agreement if the open source project requires to do so.
 - Be able to work full-time in our <a href="https://azavea.com/directions">Philadelphia office</a>
 - Choose a Proposed Project or submit you own idea
 
 {:.faq #faq-2}
 #### [#](#faq-2){:class="anchor-link" title="anchor link"} What if I have my own project idea?
 We encourage applicants to submit their own project ideas. Feel free to reach out to us to submit your own project proposals and see if we can match a mentor with your idea.
-
-<a href="#">I'd like to submit a project proposal...</a>
 
 {:.faq #faq-3}
 #### [#](#faq-3){:class="anchor-link" title="anchor link"} What is the timeline for the application?
