@@ -28,10 +28,8 @@ hero:
 #### [#](#faq-2){:class="anchor-link" title="anchor link"} What if I have my own project idea?
 We encourage applicants to submit their own project ideas. Feel free to reach out to us to submit your own project proposals and see if we can match a mentor with your idea.
 
-<a href="#">I'd like to submit a project proposal...</a>
-
-{:.faq #faq-4}
-#### [#](#faq-4){:class="anchor-link" title="anchor link"} What is the timeline for the application?
+{:.faq #faq-3}
+#### [#](#faq-3){:class="anchor-link" title="anchor link"} What is the timeline for the application?
 See the timline on the [About page]({{ site.baseurl }}{% link page-about.md %}).
 
 {:.faq #faq-4}

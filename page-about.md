@@ -29,7 +29,7 @@ A fellowship for students and software developers with strong engineering skills
 {:.content-blurb}
 
 ### What you'll do
-Fellows work closely with experienced Azavea mentors to expand on software engineering and design skills while contributing to open source projects for 3-months during the summer. Applicants can either <a href="/projects">choose a project</a> from the Proposed Projects list or <a href="#">submit their own project idea</a>.
+Fellows work closely with experienced Azavea mentors to expand on software engineering and design skills while contributing to open source projects for 3-months during the summer. Applicants can either choose a project from the <a href="/projects">Proposed Projects</a> list or submit their own project idea.
 
 ### Program Benefits
 - Work closely with experienced mentors
