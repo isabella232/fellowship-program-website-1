@@ -29,7 +29,7 @@ A fellowship for students and software developers with strong engineering skills
 {:.content-blurb}
 
 ### What you'll do
-Fellows work closely with experienced Azavea mentors to expand on software engineering and design skills while contributing to open source projects for 3-months during the summer. Applicants can either choose a project from the <a href="/projects">Proposed Projects</a> list or submit their own project idea.
+Fellows work closely with experienced Azavea mentors to expand on software engineering and design skills while contributing to open source projects for 3 months during the summer. Applicants can either choose a project from the <a href="/projects">Proposed Projects</a> list or submit their own project idea.
 
 ### Program Benefits
 - Work closely with experienced mentors
@@ -42,8 +42,8 @@ Fellows work closely with experienced Azavea mentors to expand on software engin
 ### Timeline
 - **March 19th:** Applications are due on the 19th, "Anywhere On Earth" - meaning, if anywhere on earth it's March 19th or before, applications are still open.
 - **March - April:** Applicants that make it past the first round will be contacted and interviewed.
-- **April:** All applicants will be notified of whether or not they have been acceptanced.
-- **June 4th:** Fellowship begins
+- **April:** All applicants will be notified of whether or not they have been accepted.
+- **June 4th:** Fellowship begins.
 - **August 24th:** Fellowship ends.
 
 ### Eligibility
