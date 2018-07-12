@@ -33,7 +33,7 @@ We encourage applicants to submit their own project ideas. Feel free to reach ou
 See the timline on the [About page]({{ site.baseurl }}{% link page-about.md %}).
 
 {:.faq #faq-4}
-#### [#](#faq-4){:class="anchor-link" title="anchor link"} What are my obligations as a student during the Summer 2017 Azavea Fellowship Program?
+#### [#](#faq-4){:class="anchor-link" title="anchor link"} What are my obligations as a student during the Azavea Fellowship Program?
 - Work full-time in our <a href="https://azavea.com/directions">Philadelphia office</a>
 - Be communicative with your mentor and other Azavea staff as you work on your project
 - Participate in the open source community by being active on mailing lists, on GitHub, in Gitter, etc.
