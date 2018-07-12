@@ -20,7 +20,7 @@ hero:
 The goals of the Azavea Open Source Fellowship Program match our company mission.
 {:.content-blurb}
 
-Azavea is a <a href="http://www.bcorporation.net/community/azavea">B Corporation</a> that creates civic geospatial software and data analytics for the web. Our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact.
+Azavea is a <a href="http://www.bcorporation.net/what-are-b-corps">B Corporation</a> that creates civic geospatial software and data analytics for the web. Our mission is to advance the state of the art in geospatial technology and apply it for civic, social, and environmental impact.
 
 We are deeply committed to open source software and manage several large open source projects, including: <a href="https://geotrellis.io/">GeoTrellis</a>, <a href="http://www.districtbuilder.org/">DistrictBuilder, <a href="https://www.rasterfoundry.com/">Raster Foundry</a>, <a href="https://github.com/WikiWatershed/model-my-watershed">Model My Watershed</a>, <a href="https://www.opendataphilly.org/">OpenDataPhilly</a>, <a href="https://github.com/WorldBank-Transport/open-transit-indicators">Open Transit Indicators</a>, and many others. We also contribute to a number of open source projects we do not run, and value being contributing members of the open source community.
 
