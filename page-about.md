@@ -28,6 +28,9 @@ We are deeply committed to open source software and manage several large open so
 A fellowship for students and software developers with strong engineering skills that have an interest in working on open source geospatial technology projects.
 {:.content-blurb}
 
+### Partners
+We are participating in the [Earth on AWS Fellowships and Internships Program](https://aws.amazon.com/blogs/publicsector/announcing-the-inaugural-earth-on-aws-fellowships-and-internships-program/). Through this program, our fellows have access to [Earth on AWS](https://aws.amazon.com/earth) resources like Landsat, Sentinel-2, Sentinel-1, NEXRAD, GOES-16, SpaceNet, NAIP, Terrain Tiles, MODIS, and GDELT.
+
 ### What you'll do
 Fellows work closely with experienced Azavea mentors to expand on software engineering and design skills while contributing to open source projects for 3 months during the summer. Applicants can either choose a project from the <a href="/projects">Proposed Projects</a> list or submit their own project idea.
 
