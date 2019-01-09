@@ -75,6 +75,7 @@ label {
     background: none;
     padding: 0;
     z-index: 10;
+    opacity: 0;
     
     &:checked + span {
       background: $primary;

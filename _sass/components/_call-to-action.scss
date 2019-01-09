@@ -12,9 +12,15 @@ section.join-us {
     background-color: #0E4266;
     color: $white;
     box-shadow: none;
-    align-items: unset;
-    flex-direction: column;
     padding: 2rem 4rem;
+
+    label {
+      flex: none;
+    }
+
+    .btn {
+      margin-top: 2rem;
+    }
 
     @media (max-width: 900px) {
       padding: 2rem;

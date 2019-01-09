@@ -106,6 +106,15 @@
   }
 }
 
+// IE 11 fix
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .brand {
+    > img {
+      width: 100%;
+    }
+  }
+}
+
 .azavea-link {
   font-size: $a-font-size;
   font-weight: $a-font-weight;
