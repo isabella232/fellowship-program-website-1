@@ -1,5 +1,5 @@
 ---
-published: true # change to true once ready to post
+published: false # change to true once ready to post
 
 title: "Raster Vision: Deep Neural Networks for Satellite and Aerial Imagery" # project title inside quotes
 excerpt: "Utilize the Raster Vision project to train deep learning models against geospatial imagery." # shows on project list page
@@ -18,7 +18,7 @@ tags: # one tag per line – spaces are allowed in tags – use tags other post
 difficulty: "Hard" # easy, medium, hard – pick one
 
 mentors: # github username without the @ – example: designmatty
-  - "lossyrob"
+  - "jamesmcclain"
   - "lewfish"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
