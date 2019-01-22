@@ -1,18 +1,18 @@
 ---
 # Remove the project attributes which don't apply to your project. (ie: if no issues, delete the issues section)
 
-published: true # change to true once ready to post
+published: false # change to true once ready to post
 
 title: "School Bus Routing Optimization"# project title inside quotes
-excerpt: "Optimize school bus routing plans using a general constraint solver" # shows on project list page
+excerpt: "Optimize school bus routing plans using a constraint solver" # shows on project list page
 seo_description: "" # goes in project meta description
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
   - "Python"
-  - "Data analysis and visualizations skills"
-  - "Java Scala preferred"
-  - "Scala preferred"
+  - "Java or Scala preferred"
+  - "C/C++ may be helpful, depending on approach"
+  - "Experience with discrete optimization a big plus"
   - "Experience with graph algorithms a plus"
   - "Knowledge of spatial statistics a plus"
 
@@ -22,17 +22,18 @@ tags: # one tag per line – spaces are allowed in tags – use tags other post
   - "vehicle routing problem"
   - "OpenTripPlanner"
   - "Google Optimization Tools"
+  - "Discrete optimization"
 
-difficulty: "easy" # easy, medium, hard – pick one
+difficulty: "very challenging" # easy, medium, hard – pick one
 
 mentors: # github username without the @ – example: designmatty
-  - "simonkassel"
   - "jamesmclain"
+  - "simonkassel"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
 
-Azavea recently worked with the School District of Philadelphia on a project to investigate the benefits of using an algorithm to create an optimal bus routing plan the school system. If implemented correctly, this type of optimization could lead to dramatic financial and time savings for the district and local students, respectively. Azavea conducted an analysis using [OptaPlanner](https://www.optaplanner.org/) as a general constraint solver and [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner) for vehicle routing. This [effort has been open-sourced](https://github.com/azavea/bus-plan) in the interest of creating a reproducible bus routing tool for school districts across the country.
+Azavea recently worked with the School District of Philadelphia on a project to investigate the benefits of using an algorithm to create an optimized bus routing plan the school system. If implemented well, this type of optimization could lead to dramatic financial and time savings for the district and local students, respectively. Azavea conducted an analysis using [OptaPlanner](https://www.optaplanner.org/) as a general constraint solver and [OpenTripPlanner](https://github.com/opentripplanner/OpenTripPlanner) for vehicle routing. This [effort has been open-sourced](https://github.com/azavea/bus-plan) in the interest of creating a reproducible bus routing tool for school districts across the country.
 
 The objectives of this project are three-fold:
 1. Augment solver functionality
@@ -46,7 +47,7 @@ The objectives of this project are three-fold:
 In the beginning of the project you will prepare by:
 
 - Familiarization with existing BusPlan code
-- Explore the pros and cons of migrating project from OptaPlanner to [Google Optimization Tools](htntps://developers.google.com/optimization/)
+- Explore the pros and cons of migrating project from OptaPlanner to [Google Optimization Tools](https://developers.google.com/optimization/) or some other framework
 - Create a roadmap
 
 #### Coding Phase 1:
@@ -67,8 +68,10 @@ This coding phase focuses on analyzing results. You will conduct iterative small
 
 #### Coding Phase 3:
 
-Help convert current work into a reproducible open-source tool.
+Help convert current work into a first-class open-source tool.
 
+- (Possibly) move to new optimization framework
+- Focus on algorithmic and engineering quality: should scale to large problems
 - Develop input data guidelines
 - Automate each step in data processing pipeline
 - Create documentation
