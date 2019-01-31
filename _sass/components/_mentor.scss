@@ -28,9 +28,12 @@
     opacity: 0;
     position: absolute;
     bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
     color: white;
     transition: .2s ease-in-out opacity;
     user-select: none;
+    white-space: nowrap;
 
     img {
       max-width: 1.5rem;
