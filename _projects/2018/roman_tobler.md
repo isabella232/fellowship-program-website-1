@@ -1,5 +1,5 @@
 ---
-published: true # change to true once ready to post
+published: false # change to true once ready to post
 
 title: "Foot Steps of Rome: Calculating the Cost of Travel in the Roman Empire" # project title inside quotes
 excerpt: "Calculate the cost of traveling between ancient Roman population centers" # shows on project list page

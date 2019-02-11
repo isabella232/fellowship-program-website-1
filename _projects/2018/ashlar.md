@@ -1,5 +1,5 @@
 ---
-published: true # change to true once ready to post
+published: false # change to true once ready to post
 
 title: "Ashlar" # project title inside quotes
 excerpt: "Flexible schema framework for geospatial data" # shows on project list page

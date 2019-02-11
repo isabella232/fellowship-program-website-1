@@ -1,7 +1,7 @@
 ---
 # Remove the project attributes which don't apply to your project. (ie: if no issues, delete the issues section)
 
-published: true # change to true once ready to post
+published: false # change to true once ready to post
 
 title: "Contribute to OpenTripPlanner" # project title inside quotes
 excerpt: "Tackle issues and features in the OpenTripPlanner project." # shows on project list page
