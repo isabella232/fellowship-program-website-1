@@ -43,6 +43,14 @@ In order to build Jekyll's static website output, use:
 $ ./scripts/update
 ```
 
+## Running  the server
+
+After logging in the vagrant server, run:
+
+```bash
+$ ./scripts/server
+```
+
 ## URLs
 
 The Vagrant configuration creates a host-only private network between the virtual machine host and the Vagrant virtual machine. In order to access the content served by Jekyll, and the LiveReload endpoint, use the following links:
