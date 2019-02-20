@@ -12,7 +12,7 @@ requirements: # bullet list of requirements – one requirement per line – fol
 tags: # one tag per line – spaces are allowed in tags – follow below format
   - "scala"
   - "climate change"
-difficulty: "Hard" # easy, medium, hard – pick one
+difficulty: "Medium" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
   - "maurizi"
   - "pcaisse"
@@ -40,21 +40,26 @@ In the beginning of the project you will prepare by:
 
 #### Project Phase 1
 
-In this phase you will update the existing proof-of-concept to be ready for continued development
+In this phase you will update the existing proof-of-concept to be ready for continued development:
 
 - Refactor the prototype to use http4s instead of AkkaHTTP
 - Update GeoTrellis and other dependencies
-- Update the existing ingest script to ingest more data
+- Create a reproducible build environment using Docker
+- Update the [existing ingest script](https://gist.github.com/jamesmcclain/d7301ba770477296348765a6d73feabf) to ingest more data
 
 #### Project Phase 2
 
-In this phase of the project, you will update the prototype code to have feature parity with the existing API
+In this phase of the project, you will update the prototype code to have all the features needed for use with our climate change adaptation application, [Temperate](https://temperate.io):
 
  - Add support for all filter parameters
  - Add support for historical scenarios
+ - Add endpoints for listing available cells, models, scenarios, indicators, and datasets
+
+As an optional stretch-goal, depending on time, you will add the features necessary to reach full feature parity with existing API:
  - Add endpoints for accessing raw temperature and precipitation data
+ - Add endpoints for accessing available region
  - Add endpoints for accessing dataset metadata
 
 #### Project Phase 3
 
-In the final project phase, you'll work with the Climate Change team to incorporate your efforts into the production API as well as document your experience in a blog post.
+In the final project phase, you'll work with the Climate Change team to create a roadmap for how your efforts will be integrated into the production API, and time permitting will work with them to follow it through. You will also document your experience in a blog post.
