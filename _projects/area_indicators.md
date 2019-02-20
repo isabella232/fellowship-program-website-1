@@ -58,7 +58,7 @@ In this phase of the project, you will update the prototype code to have all the
 
 As an optional stretch-goal, depending on time, you will add the features necessary to reach full feature parity with existing API:
  - Add endpoints for accessing raw temperature and precipitation data
- - Add endpoints for accessing available region
+ - Add endpoints for accessing available regions
  - Add endpoints for accessing dataset metadata
 
 #### Project Phase 3
