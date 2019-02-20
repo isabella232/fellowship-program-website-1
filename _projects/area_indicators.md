@@ -33,7 +33,7 @@ This purpose of this project is to build on that existing proof-of-concept proje
 
 In the beginning of the project you will prepare by:
 
-- Familiarization with the Climate Change API
+- Familiarization with the [Climate Change API](https://docs.climate.azavea.com/)
 - Familiarization with the [proof-of-concept code](https://github.com/azavea/climate-backend)
 - Audit the proof-of-concept for completeness in terms of features required to act as a drop-in replacement for the existing API
 - Create a project roadmap
