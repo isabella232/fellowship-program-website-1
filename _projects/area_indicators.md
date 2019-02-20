@@ -6,9 +6,10 @@ excerpt: "A high performance Scala API for calculating climate indicators over g
 
 # project attributes
 requirements: # bullet list of requirements – one requirement per line – follow below format
-  - "Scala programming experience"
+  - "Familiarity building or working with APIs"
+  - "Interest and/or exerience in functional programming required (Haskell, Scala, ML, etc.)"
+  - "Scala programming experience not required but preferred"
   - "Python programming experience not required but preferred"
-  - "NetCDF experience not required but preferred"
 tags: # one tag per line – spaces are allowed in tags – follow below format
   - "scala"
   - "climate change"
