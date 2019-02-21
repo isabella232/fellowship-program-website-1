@@ -13,7 +13,7 @@ requirements: # bullet list of requirements – one requirement per line – fol
 tags: # one tag per line – spaces are allowed in tags – follow below format
   - "scala"
   - "climate change"
-difficulty: "Medium" # easy, medium, hard – pick one
+difficulty: "Hard" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
   - "maurizi"
   - "pcaisse"
