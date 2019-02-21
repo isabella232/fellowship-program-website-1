@@ -15,9 +15,7 @@ tags: # one tag per line – spaces are allowed in tags – follow below format
   - "climate change"
 difficulty: "Hard" # easy, medium, hard – pick one
 mentors: # github username without the @ – example: designmatty
-  - "maurizi"
   - "pcaisse"
-  - "jamesmcclain"
   - "jisantuc"
   - "fungjj92"
 
