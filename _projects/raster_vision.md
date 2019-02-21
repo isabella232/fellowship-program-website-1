@@ -1,5 +1,5 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 
 title: "Raster Vision: Deep Neural Networks for Satellite and Aerial Imagery" # project title inside quotes
 excerpt: "Utilize the Raster Vision project to train deep learning models against geospatial imagery." # shows on project list page

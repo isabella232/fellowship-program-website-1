@@ -1,5 +1,5 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 
 title: "Climate Change API Area Indicators" # project title inside quotes
 excerpt: "A high performance Scala API for calculating climate indicators over geospatial areas" # shows on project list page
