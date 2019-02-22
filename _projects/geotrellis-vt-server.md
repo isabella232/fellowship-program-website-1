@@ -27,7 +27,7 @@ mentors: # github username without the @ – example: designmatty
 
 # Motivation
 
-Prior art exists showing efficient vector tile slicing and rendering for static data. Raster Foundry and other projects have a need for the ability to serve dynamically generated vector tiles from data provided by users as they use the application. Several other options (t-rex, tegola, tilegarden) require configuration to serve a set of layers when the server starts, but the goal of this project is for clients to ad hoc specify layers.
+Prior art exists showing efficient vector tile slicing and rendering for static data. Raster Foundry and other projects have a need for the ability to serve dynamically generated vector tiles from data provided by users as they use the application. Several other options (t-rex, tegola, tilegarden) require configuration to serve a set of layers when the server starts, but the goal of this project is for clients to ad hoc specify layers. This fellowship has the potential for open source contributions to two projects: [GeoTrellis](https://geotrellis.io/) and [Raster Foundry](https://www.rasterfoundry.com/).
 
 # Milestones
 
