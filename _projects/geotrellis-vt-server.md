@@ -27,7 +27,7 @@ mentors: # github username without the @ – example: designmatty
 
 # Motivation
 
-Prior art exists showing efficient vector tile slicing and rendering for static data. Raster Foundry and other projects have a need for the ability to serve dynamically generated vector tiles from data provided by users as they use the application. Several other options (t-rex, tegola, tilegarden) require configuration to serve a set of layers when the server starts, but the goal of this project is for clients to ad hoc specify layers. This fellowship has the potential for open source contributions to two projects: [GeoTrellis](https://geotrellis.io/) and [Raster Foundry](https://www.rasterfoundry.com/).
+Vector tiles enable [rapid client-styled visualizations](https://docs.mapbox.com/vector-tiles/reference/) of large collections of geometric data. Prior art exists showing efficient vector tile slicing and rendering for static data. Raster Foundry and other projects have a need for the ability to serve dynamically generated vector tiles from data provided by users. Several options ([t-rex](https://github.com/t-rex-tileserver/t-rex), [Tegola](https://github.com/go-spatial/tegola), [tilegarden](https://github.com/azavea/tilegarden)) require configuration to serve a set of layers when the server starts. The goal of this project is for clients to ad hoc specify layers, which will then be constructed and served on-the-fly. This fellowship has the potential for open source contributions to two projects: [GeoTrellis](https://geotrellis.io/) and [Raster Foundry](https://www.rasterfoundry.com/).
 
 # Milestones
 
@@ -43,7 +43,7 @@ You will prepare by gaining a working knowledge of:
 
 In this phase, you will create functionality to serve vector tiles from vector data stored in a PostGIS database. 
 
-To do so, you will use scala libraries to generate relevant queries based on user requests and translate between database query results and entities in compliance with the [Mapbox vector tile specification](https://docs.mapbox.com/vector-tiles/reference/).
+To do so, you will use scala libraries to generate relevant queries based on user requests and translate between database query results and entities in compliance with the [Mapbox vector tile specification]
 
 ## Coding Phase 2 - Demo Site
 
