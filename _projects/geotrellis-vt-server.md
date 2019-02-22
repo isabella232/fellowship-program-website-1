@@ -7,11 +7,12 @@ title: "Dynamic Vector Tile Server" # project title inside quotes
 excerpt: "Serve dynamic vector tiles from GeoJSON and other sources using GeoTrellis" # shows on project list page
 
 # project attributes
+
 requirements: # bullet list of requirements – one requirement per line – follow below format
   - "experience building or using APIs"
   - "interest in Scala / FP"
 
-tags: # one tag per line – spaces are allowed in tags – use tags other posts use
+tags: # one tag per line – spaces are allowed in tags – use tags other posts use
   - "vector tiles"
   - "scala"
   - "GeoTrellis"
@@ -21,32 +22,32 @@ difficulty: "medium" # Easy, Medium, Hard – pick one
 mentors: # github username without the @ – example: designmatty
   - "jisantuc"
   - "cloudniner"
+  
+---
+
+# Motivation
+
+Prior art exists showing efficient vector tile slicing and rendering for static data. Raster Foundry and other projects have a need for the ability to serve dynamically generated vector tiles from data provided by users as they use the application. Several other options (t-rex, tegola, tilegarden) require configuration to serve a set of layers when the server starts, but the goal of this project is for clients to ad hoc specify layers.
 
 # Milestones
 
 ## Preparation
 
-- gain a working knowledge of scala development
-- build familiarity with `geotrellis-vectortile`, `geotrellis-vector`, `RasterSource`s in `geotrellis-contrib`
+You will prepare by gaining a working knowledge of:
 
-## Coding Phase 1 - `VectorSource` and `GeoJSONVectorSource`
+  - scala development
+  - scala libraries for web servers
+  - GeoTrellis geometry libraries
 
-In this phase, you will create the `VectorSource` type, which will define the common operations across all kinds of `VectorSource`s. You will then use the `VectorSource` type to create the `GeoJSONVectorSource`, which will translate between GeoJSON file sources and GeoTrellis `VectorTile`s.
+## Coding Phase 1 - Create Vector Tiles from a PostGIS Source
 
-- create the `VectorSource` type using `RasterSource` as an example
-- create the `GeoJSONVectorSource` which is a `VectorSource` for GeoJSON inputs
+In this phase, you will create functionality to serve vector tiles from vector data stored in a PostGIS database. 
 
-## Coding Phase 2
+## Coding Phase 2 - Demo Site
 
-In this phase, you will create a tile server that produces tiles from some geoJSON source, and a minimal frontend to display them.
+In this phase you will wrap up the work from phase one into a vector tile server and a minimal frontend that consumes those tiles and displays them on a map.
 
-- use existing `geotrellis.vectortile` methods and examples from Raster Foundry's `backsplash` project to implement the tile server
-- create a simple viewer using MapboxGL or OpenLayers that consumes the tiles API
 
-## Coding Phase 3 (stretch)
+## Coding Phase 3 - Performance Improvements
 
-In this phase, if possible, you will come up with a roadmap fo additional `VectorSource`s and add those that you have time for. Some possibilities include:
-
-- PostGIS
-- ESRI Shapefiles
-- GeoPackage
+In this phase, you will investigate simplification and aggregation strategies to serve imagery appropriate to a user's requested zoom level.
