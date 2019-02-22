@@ -36,7 +36,7 @@ Prior art exists showing efficient vector tile slicing and rendering for static 
 You will prepare by gaining a working knowledge of:
 
   - scala development
-  - scala libraries for web servers
+  - scala libraries (e.g. [http4s](https://http4s.org/), [doobie](https://tpolecat.github.io/doobie/), [circe](https://circe.github.io/circe/)) for web development
   - GeoTrellis geometry libraries
 
 ## Coding Phase 1 - Create Vector Tiles from a PostGIS Source
