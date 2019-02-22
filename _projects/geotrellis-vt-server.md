@@ -43,11 +43,15 @@ You will prepare by gaining a working knowledge of:
 
 In this phase, you will create functionality to serve vector tiles from vector data stored in a PostGIS database. 
 
+To do so, you will use scala libraries to generate relevant queries based on user requests and translate between database query results and entities in compliance with the [Mapbox vector tile specification](https://docs.mapbox.com/vector-tiles/reference/).
+
 ## Coding Phase 2 - Demo Site
 
-In this phase you will wrap up the work from phase one into a vector tile server and a minimal frontend that consumes those tiles and displays them on a map.
+In this phase you will wrap the work from phase one into a vector tile server and a minimal frontend that consumes that server's endpoints. Some libraries you might work with in this phase are http4s, mapbox-gl, and OpenLayers. Here are some examples of demo sites for prior work:
 
+- [tilejson.io](https://tilejson.io/)
+- [tilegarden](https://azavea.github.io/tilegarden/demo/vector.html)
 
 ## Coding Phase 3 - Performance Improvements
 
-In this phase, you will investigate simplification and aggregation strategies to serve imagery appropriate to a user's requested zoom level.
+In this phase, you will investigate simplification and aggregation strategies to serve imagery appropriate to a user's requested zoom level. For example, at low zoom levels, some geometries will be too small to render, or it may make sense to cluster some collection of points into a single point. You will investigate how to perform simplifications and aggregations on the fly and propose an API for developer specification of simplification and aggregation strategies. Some prior art for vector tile simplification exists in [geojson-vt](https://github.com/mapbox/geojson-vt).
