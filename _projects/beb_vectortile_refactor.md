@@ -1,7 +1,7 @@
 ---
 # Remove the project attributes which don't apply to your project. (ie: if no issues, delete the issues section)
 
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 
 title: "Vector Tile Backend for Building Energy Benchmarking" # project title inside quotes
 excerpt: "Refactor the Philly Building Energy Benchmarking site from Carto to static vector tiles." # shows on project list page

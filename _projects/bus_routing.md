@@ -1,7 +1,7 @@
 ---
 # Remove the project attributes which don't apply to your project. (ie: if no issues, delete the issues section)
 
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 
 title: "School Bus Routing Optimization"# project title inside quotes
 excerpt: "Optimize school bus routing plans using a constraint solver" # shows on project list page

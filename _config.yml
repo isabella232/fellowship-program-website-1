@@ -22,8 +22,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: azavea
 github_username:  azavea
 
-fellowship_in_session: false # is there a fellowship upcoming or in session
-fellowship_timeframe: Summer 2018
+fellowship_in_session: true # is there a fellowship upcoming or in session
+fellowship_timeframe: Summer 2019
 
 collections:
   projects:

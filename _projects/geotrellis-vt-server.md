@@ -1,7 +1,7 @@
 ---
 # Remove the project attributes which don't apply to your project. (ie: if no issues, delete the issues section)
 
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 
 title: "Dynamic Vector Tile Server" # project title inside quotes
 excerpt: "Serve dynamic vector tiles from GeoJSON and other sources using GeoTrellis" # shows on project list page
@@ -22,7 +22,7 @@ difficulty: "medium" # Easy, Medium, Hard – pick one
 mentors: # github username without the @ – example: designmatty
   - "jisantuc"
   - "cloudniner"
-  
+
 ---
 
 # Motivation
@@ -41,7 +41,7 @@ You will prepare by gaining a working knowledge of:
 
 ## Coding Phase 1 - Create Vector Tiles from a PostGIS Source
 
-In this phase, you will create functionality to serve vector tiles from vector data stored in a PostGIS database. 
+In this phase, you will create functionality to serve vector tiles from vector data stored in a PostGIS database.
 
 To do so, you will use scala libraries to generate relevant queries based on user requests and translate between database query results and entities in compliance with the [Mapbox vector tile specification]
 

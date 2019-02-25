@@ -1,5 +1,5 @@
 ---
-published: true # change to true once ready to post
+published: false # change to true once ready to post
 
 title: "Implement topojson reader/writer for vector data"
 excerpt: "A Scala implementation of the TopoJSON format in GeoTrellis"

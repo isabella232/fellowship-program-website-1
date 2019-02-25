@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 
 title: "Lambda Tilegarden" # project title inside quotes
 excerpt: "Lambda-based raster and vector tile generation from PostGIS data" # shows on project list page
