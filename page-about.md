@@ -43,11 +43,11 @@ Fellows work closely with experienced Azavea mentors to expand on software engin
 - Receive relocation assistance, if eligible
 
 ### Timeline
-- **March 19th:** Applications are due on the 19th, "Anywhere On Earth" - meaning, if anywhere on earth it's March 19th or before, applications are still open.
+- **March 15th:** Applications are due (Eastern Standard Time).
 - **March - April:** Applicants that make it past the first round will be contacted and interviewed.
 - **April:** All applicants will be notified of whether or not they have been accepted.
-- **June 4th:** Fellowship begins.
-- **August 24th:** Fellowship ends.
+- **June 3rd:** Fellowship begins.
+- **August 23rd:** Fellowship ends.
 
 ### Eligibility
 This paid fellowship program is open to full-time or part-time students, those transitioning careers, or professionals that want to expand their knowledge in open source and geospatial. You are required to be over 18 years old and have some experience with software development, either through schooling or through experience.
