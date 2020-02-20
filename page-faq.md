@@ -16,6 +16,14 @@ hero:
 # refer to https://kramdown.gettalong.org/syntax.html for syntax
 ---
 
+{% if site.fellowship_suspended %}
+{:.faq #faq-0}
+#### [#](#faq-0){:class="anchor-link" title="anchor link"} Why is there a hiatus for Summer of 2020?
+Azavea will not be running the Fellowship in {{ site.fellowship_timeframe }}. This is due to the company staff workload, resourcing priorities and the lack of available mentors this summer. We aim to run the program again next year.
+
+{% endif %}
+
+
 {:.faq #faq-1}
 #### [#](#faq-1){:class="anchor-link" title="anchor link"} What are the requirements to be accepted for Azavea Fellowship?
 - You must meet the <a href="/about">eligibility requirements</a> found on the About page
