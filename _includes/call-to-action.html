@@ -10,18 +10,30 @@
           {% endif %}
         </span>
         <h2 class="content-title">
-          {{ site.fellowship_timeframe }}
-          {% if site.fellowship_in_session != true %}
-          session is closed
-          {% endif %}
+            {% if site.fellowship_suspended != true %}
+               {{ site.fellowship_timeframe }}
+               {% if site.fellowship_in_session != true %}
+               session is closed
+               {% endif %}
+            {% endif %}
+            {% if site.fellowship_suspended == true %}
+               The fellowship is taking a hiatus for {{ site.fellowship_timeframe }}.
+            {% endif %}
         </h2>
       </div>
       <p class="content-blurb">
-        {% if site.fellowship_in_session %}
-          Applications for the {{ site.fellowship_timeframe }} session of the Azavea Open Source Fellowship Program are open. Review the <a href="/projects">proposed project ideas</a> and <a href="https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAABpEZO0RUIdn-D">apply now</a>!
-        {% else %}
-        Applications for the {{ site.fellowship_timeframe }} session of the Azavea Open Source Fellowship Program are now closed. Sign up for notifications about future opportunities.
-        {% endif %}
+          {% if site.fellowship_suspended != true && site.fellowship_in_session == true %}
+            Applications for the {{ site.fellowship_timeframe }} session of the Azavea Open Source Fellowship Program are open. Review the <a href="/projects">proposed project ideas</a> and <a href="https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAABpEZO0RUIdn-D">apply now</a>!
+          {% endif %}
+
+
+          {% if site.fellowship_suspended != true && site.fellowship_in_session != true %}
+            Applications for the {{ site.fellowship_timeframe }} session of the Azavea Open Source Fellowship Program are now closed. Sign up for notifications about future opportunities.
+          {% endif %}
+
+          {% if site.fellowship_suspended == true %}
+          Azavea will not be running the Open Source Fellowship in {{ site.fellowship_timeframe }}. Sign up for notifications about future opportunities.
+          {% endif %}
       </p>
     </div>
     <div class="row align-center">

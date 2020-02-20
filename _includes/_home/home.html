@@ -13,5 +13,7 @@
 {% endcomment %}
 
 <!-- mentors -->
+{% if site.fellowship_suspended != true %}
 {% include_relative {{ page.partials_location }}_mentors.html %}
+{% endif %}
 <!-- mentors -->
