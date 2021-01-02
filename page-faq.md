@@ -18,7 +18,7 @@ hero:
 
 {% if site.fellowship_suspended %}
 {:.faq #faq-0}
-#### [#](#faq-0){:class="anchor-link" title="anchor link"} Why is there a hiatus for Summer of 2020?
+#### [#](#faq-0){:class="anchor-link" title="anchor link"} Why is there a hiatus for {{ site.fellowship_timeframe }}?
 Azavea will not be running the Fellowship in {{ site.fellowship_timeframe }}. This is due to the company staff workload, resourcing priorities and the lack of available mentors this summer. We aim to run the program again next year.
 
 {% endif %}

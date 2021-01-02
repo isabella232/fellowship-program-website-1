@@ -24,7 +24,7 @@ github_username:  azavea
 
 fellowship_in_session: false # is there a fellowship upcoming or in session
 fellowship_suspended: true # is the fellowship suspended for this year
-fellowship_timeframe: Summer 2020
+fellowship_timeframe: Summer 2021
 
 collections:
   projects:
